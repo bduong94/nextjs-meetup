@@ -15,12 +15,12 @@ const DUMMY_MEETUPS = [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stadtbild_M%C3%BCnchen.jpg",
     address: "Some Address 5, 12345 Some City",
-    description: "This is a first meetup!",
+    description: "This is a second meetup!",
   },
 ];
 
 function HomePage() {
-  return <MeetupList meetups={}/>;
+  return <MeetupList meetups={DUMMY_MEETUPS} />;
 }
 
 export default HomePage;
